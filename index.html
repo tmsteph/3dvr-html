@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3dvr.tech</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to bottom right, #1a202c, #2d3748, #319795);
+      color: white;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(26, 32, 44, 0.8);
+      backdrop-filter: blur(10px);
+      z-index: 50;
+    }
+    nav .nav-items a {
+      color: #319795;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav .nav-items a:hover {
+      color: white;
+    }
+    section {
+      padding: 100px 15px;
+      text-align: center;
+    }
+    .btn {
+      background: #319795;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #2c7a7b;
+    }
+    .service-card, .project-card {
+      background: rgba(26, 32, 44, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      margin: 15px;
+    }
+    footer {
+      background: #2d3748;
+      padding: 20px;
+      text-align: center;
+      color: #a0aec0;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div style="font-size: 24px; font-family: 'Orbitron', sans-serif;">3dvr.tech</div>
+        <div class="nav-items">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <h1 style="font-size: 48px; font-family: 'Orbitron', sans-serif;">Open-Source Innovation</h1>
+    <p style="font-size: 18px;">Building sustainable solutions for technology and exploration</p>
+    <a href="#contact" class="btn">Join the Revolution</a>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+      <div class="service-card">
+        <h3>Web Design & Applications</h3>
+        <p>Custom web solutions tailored to your unique requirements.</p>
+      </div>
+      <div class="service-card">
+        <h3>Open-Source Hardware</h3>
+        <p>Innovative hardware designs freely available for community development.</p>
+      </div>
+      <div class="service-card">
+        <h3>Custom Technical Support</h3>
+        <p>Dedicated support to help you leverage our open-source technologies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Our Projects</h2>
+    <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+      <div class="project-card">
+        <h3>TommyOS</h3>
+        <p>A revolutionary open-source operating system designed for flexibility and performance.</p>
+      </div>
+      <div class="project-card">
+        <h3>Universal Contacts</h3>
+        <p>Cross-platform contact management solution breaking ecosystem barriers.</p>
+      </div>
+      <div class="project-card">
+        <h3>Open Metaverse</h3>
+        <p>Decentralized virtual reality platforms empowering user-driven experiences.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <a href="mailto:info@3dvr.tech" class="btn">Get In Touch</a>
+  </section>
+
+  <footer>
+    <p>© 2025 3dvr.tech. All rights reserved.</p>
+  </footer>
+</body>
+</html>
